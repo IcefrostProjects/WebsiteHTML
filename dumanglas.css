@@ -1,0 +1,96 @@
+/* Body styles */
+body {
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: #001f3d; 
+    color: #00ff00; 
+    margin: 0;
+}
+
+/* Navigation button styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003b5c; 
+    padding: 10px;
+}
+
+nav button {
+    background-color: #00ff00; 
+    color: #001f3d; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover */
+}
+
+nav button:hover {
+    background-color: #00cc00; /* Lighter green on hover */
+    color: #001f3d; /* Dark text on hover */
+}
+
+nav button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px 2px #00ff00; /* Add green glow effect on focus */
+}
+
+/* Tab content section */
+.tab-content {
+    padding: 20px;
+}
+
+/* Hidden class for hiding elements */
+.hidden {
+    display: none;
+}
+
+h2 {
+    border-bottom: 2px solid #00ff00; 
+    padding-bottom: 5px;
+    color: #00ff00; 
+}
+
+h3 {
+    color: #00ff00;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.gallery {
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    margin-top: 20px; 
+    align-items: center; 
+}
+
+.gallery img {
+    width: 80%; 
+    max-width: 600px; 
+    height: auto; 
+    object-fit: cover; 
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.subject {
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px;
+}
